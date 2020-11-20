@@ -18,7 +18,7 @@ rails s
 
 db_name : dist_database
 
-username: dist_username
+username: postgres
 
 password: secret
 
