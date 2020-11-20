@@ -42,6 +42,6 @@ rake db:migrate
 
   Payload
 
-  ![](UserPayload.png)
+  ![](app/images/UserPayload.png)
 
 ---
