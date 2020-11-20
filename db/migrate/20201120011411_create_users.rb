@@ -7,7 +7,8 @@ class CreateUsers < ActiveRecord::Migration[6.0] # rubocop:todo Style/Documentat
       t.string :name
       t.string :address
       t.string :reason
-
+      t.datetime :starts_at
+      t.datetime :ends_at
       t.timestamps
     end
   end

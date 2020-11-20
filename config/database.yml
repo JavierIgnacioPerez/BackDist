@@ -19,7 +19,7 @@ default: &default
   encoding: unicode
   database: dist_database
   pool: 5
-  username: dist_user
+  username: postgres
   password: secret
 
 development:
@@ -27,7 +27,7 @@ development:
   encoding: unicode
   database: dist_database
   pool: 5
-  username: dist_user
+  username: postgres
   password: secret
 
   # The specified database role being used to connect to postgres.
@@ -65,7 +65,7 @@ test:
   encoding: unicode
   database: dist_database
   pool: 5
-  username: dist_user
+  username: postgres
   password: secret
 
 # As with config/credentials.yml, you never want to store sensitive information,
@@ -92,5 +92,5 @@ production:
   encoding: unicode
   database: dist_database
   pool: 5
-  username: dist_user
+  username: postgres
   password: secret

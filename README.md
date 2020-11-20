@@ -24,4 +24,12 @@ password: secret
 
 ---
 
+## Run Migration.
+
+---
+
+rake db:migrate
+
+---
+
 ## Endpoints
