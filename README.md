@@ -33,3 +33,31 @@ rake db:migrate
 ---
 
 ## Endpoints
+
+#### Create User.
+
+---
+
+  [POST] /users
+
+  Payload
+
+  ---
+
+  {
+    "data": {
+      "id": 1,
+      "type": "User",
+      "attributes": {
+        "document": "18.883.487-6"
+        "name": "Nicolás Pérez"
+        "address": "Siempre Viva"
+        "reason": "Compra Insumos Básicos"
+        "email": "nicolas.perez@gmail.com"
+      }
+    }
+  }
+
+  ---
+
+---
