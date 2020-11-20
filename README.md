@@ -12,14 +12,16 @@ rails s
 
 ---
 
-## Database credentials.
+## Database Credentials.
 
 ---
 
 db_name : dist_database
+
 username: dist_username
+
 password: secret
 
 ---
 
-## EndPoints
+## Endpoints
