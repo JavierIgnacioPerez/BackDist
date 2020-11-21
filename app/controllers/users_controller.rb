@@ -14,8 +14,6 @@ class UsersController < ApplicationController # rubocop:todo Style/Documentation
   end
 
   def user_params
-    params.require('data')
-          .require('attributes')
-          .permit('document', 'name', 'address', 'reason', 'email')
+    params.permit('document', 'name', 'address', 'reason', 'email')
   end
 end
